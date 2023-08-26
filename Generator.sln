@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{87187644-D531-4B40-8C75-57C3B4764C04}"
+	ProjectSection(SolutionItems) = preProject
+		sql.sql = sql.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "Generator\Generator.csproj", "{CF9E2F13-143C-4E62-BAEE-8E0F27A5511D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF9E2F13-143C-4E62-BAEE-8E0F27A5511D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9E2F13-143C-4E62-BAEE-8E0F27A5511D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9E2F13-143C-4E62-BAEE-8E0F27A5511D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9E2F13-143C-4E62-BAEE-8E0F27A5511D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {023D0334-1ABC-46C4-B5C0-4A5D16D8CCBC}
+	EndGlobalSection
+EndGlobal
